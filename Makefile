@@ -33,7 +33,7 @@ $(MLX):
 
 all : $(NAME)
 
-norme:
+norm:
 	@norminette $(FILES)
 
 leaks: $(MAKE) all
